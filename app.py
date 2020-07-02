@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from measurement import Measurement
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
